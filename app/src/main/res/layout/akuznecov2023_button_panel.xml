@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:rowCount="1"
+    android:columnCount="3">
+    android:id="@+id/akuznecov2023_button_panel">
+
+    <Button
+        android:id="@+id/my_button_get_list_messages"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Сообщения"
+        android:layout_margin="5dp"
+        android:background="@drawable/my_button"/>
+    <Button
+        android:id="@+id/my_button_send_mail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Отправить"
+        android:layout_margin="5dp"
+        android:background="@drawable/my_button"/>
+    <Button
+        android:id="@+id/my_button_exit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Выход"
+        android:layout_margin="5dp"
+        android:background="@drawable/my_button"/>
+
+</GridLayout>
